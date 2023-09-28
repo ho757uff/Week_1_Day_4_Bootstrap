@@ -1,17 +1,35 @@
-body {
-  /* Your CSS properties here */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
 }
 
 
-.jumbotron-hero {
-  /* Choisis la hauteur ici */
-  height: 500px;
+h1 {
+  font-size: 3rem !important;/* adjust the value to change the font size */
+}
 
-  /* Tu lui donnes une image de background */
+h2 {
+  font-size: 1.5rem !important;/* adjust the value to change the font size */
+}
+
+h3 {
+  font-size: 1.3rem !important;/* adjust the value to change the font size */
+}
+.container {
+  margin-left: 0;
+}
+
+.jumbotron-hero {
+  height: 80vh;
+
+  margin-bottom: 2rem;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
   background-image: url("./images/surf_main.jpg");
 
-  /* Centre l'image et la met bien sur tous les écrans */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
